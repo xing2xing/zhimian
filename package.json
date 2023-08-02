@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --debug",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
